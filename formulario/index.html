@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+<center>
+<h1><strong>BIBLIOTECA EL SABUESO</strong></h1>
+<img src="sabueso.png">
+<br><hr><br>
+<h2>Formato de préstamos de libros</h2>
+<br><hr><br>
+<p>¿Ya tiene una cuenta con nosotros? (Si es un sí, haga caso omiso a esta sección)</p>	
+<br>
+<h4>CREAR UNA CUENTA</h4>
+<form>
+<label for= "signup_name">Nombre(s):</label>
+<input type="text" sun = "signupN" id = "signup_name">	
+<form>
+<label for= "signup_lastname">Apellidos:</label>
+<input type="text" suln = "signupLN" id = "signup_lastname">
+</form>
+</form>
+<div></div>
+<form>
+<label for= "signup_cel">Teléfono:</label>
+<input type="number" suc = "signupC" id = "signup_cel">	
+<form>
+<label for= "signup_email">Correo Electrónico:</label>
+<input type="text" sue = "signupE" id = "signup_email">
+</form>
+<form>
+<label for= "signup_password">Contraseña:</label>
+<input type="password" id = "signup_password "sup = "signup_password">
+</form>
+</form>
+<br>
+<form>
+<input type = "submit" value = "Limpiar">
+<form>
+<input type = "submit" value = "Crear cuenta">
+</form></form>
+<br><hr><br>
+<h4>INICIAR SESIÓN</h4>
+<form>
+<label for= "signin_cel">Teléfono:</label>
+<input type="number" sic = "signinC" id = "signin_cel">	
+<form>
+<label for= "signin_password">Contraseña:</label>
+<input type="password" id = "signin_password "sip = "signin_password">
+</form>
+</form>	
+<br>
+<form>
+<input type = "submit" value = "Limpiar">
+<form>
+<input type = "submit" value = "Iniciar sesión">
+</form></form>
+<br><hr><br>
+<h4>REGISTRA LA SALIDA DE TU LIBRO</h4>
+<form>
+<label for= "codigo">Código (Revisar el reverso de la portada):</label>
+<input type="number" code = "codigoP" id = "codigo">	
+</form>
+<br>
+<form>
+<label for = "section1"> Sección: </label>
+<input type = "text" list = "section" id = "section1" name = "section1">
+
+<datalist id = "section">
+<option value = "A1"> </option>
+<option value = "A2"> </option>
+<option value = "A3"> </option>
+<option value = "A4"> </option>
+<option value = "A5"> </option>
+</datalist>
+
+<form>
+<label for = "genero"> Género literario: </label>
+<select id = "genero" name = "genero">
+<option value = "Terror"> Terror </option>
+<option value = "Ciencia Ficción"> Ciencia Ficción </option>
+<option value = "Romance"> Romance </option>
+<option value = "Drama"> Drama </option>
+<option value = "Acción"> Acción </option>
+</select>
+</form></form>
+<br>
+<form>
+  <p> ¿Qué desea hacer? </p>
+  <input type = "radio" id = "compra" name = "respuesta" value = "compra1">
+  <label for = "compra2"> Compra </label>
+  <br>
+  <input type = "radio" id = "prestamo" name = "respuesta" value = "prestamo1">
+  <label for = "prestamo2"> Préstamo </label>
+</form>
+
+<form>
+  <p> Tiempo de retorno (Si escogió <strong>Compra</strong>, haga caso omiso): </p>
+  <label for = "1semana"> Una semana </label>
+  <input id = "1semana" name = "tiempo" type = "checkbox" value = "1semana">
+  <br>
+  <label for = "2semana"> Dos semanas </label>
+  <input id = "2semana" name = "tiempo" type = "checkbox" value = "2semana">
+  <br>
+  <label for = "3semana"> Tres semanas </label>
+  <input id = "3semana" name = "tiempo" type = "checkbox" value = "3semana">
+  <br>
+  <label for = "4semana"> Cautro semanas </label>
+  <input id = "4semana" name = "tiempo" type = "checkbox" value = "4semana">
+</form>
+<br>
+<form>
+  <label for = "comentarios"> Comentarios extras u observaciones: </label><div></div>
+  <textarea id = "comentarios" name = "comentarios" rows = "5" cols = "30">
+  </textarea>
+</form>
+<br>
+<form>
+<input type = "submit" value = "Generar pedido">
+</form>
+
+<br><hr><br>
+<form>
+  <label for = "encuesta"> ¿Qué te pareció el servicio? </label>
+  <input id = "encuesta" name = "encuesta" type = "range" min = "0" max = "100" step = "1">
+</form>
+</center>
+</body>
+</html>
