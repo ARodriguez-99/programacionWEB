@@ -1,0 +1,83 @@
+*{
+	margin: 0%;
+	background: #000000;
+}
+
+.titulo{
+	background: #3cd108;
+	padding: 20px;
+	font-family: "consolas";
+	font-size: 50px;
+}
+
+.im1{
+	width: 98%;
+	border-bottom: 80px solid #3cd108;
+	border-left: 20px solid #3cd108;
+	border-right: 20px solid #3cd108;
+}
+
+.subtitulos, .reg{
+	font-family: "consolas";
+	font-size: 35px;
+	color: #3cd108;
+	padding-top: 25px;
+}
+
+p, ul, table, .formulario, input{
+	font-family: "arial";
+	font-size: 18px;
+	padding-top: 10px;
+	color: #FFFFFF;
+}
+
+.im2, .im3{
+	width: 10%;
+	border: 5px solid #3cd108;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+table{
+	margin:20px;
+	margin-left: 80px;
+}
+
+.im3{
+	width: 25%;
+}
+
+form{
+	margin-left: 25px;
+}
+ .reg{
+ 	margin-left: 140px;
+ 	margin-bottom: 20px;
+ }
+
+ input{
+ 	margin-top: 15px;
+ }
+
+ a{
+ 	border: 2px solid #3cd108;
+ 	font-size: 20px;
+ 	font-family: "consolas";
+ 	padding: 20px;
+ 	margin-left: 20px;
+ 	margin-top: 15px;
+ 	color: #FFFFFF;
+ 	display: inline-block;
+ 	text-decoration-line: none;
+ }
+a:hover{
+ 	color: #000000;
+ 	background-color: #3cd108;
+ }
+
+
+
+
+
+
+
