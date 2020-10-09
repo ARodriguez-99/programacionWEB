@@ -1,0 +1,17 @@
+html{
+	background: #03c2b1;
+}
+
+header{
+	width: 100%;
+	background-color: #f5be29;
+	display: inline-block;
+	color: #FFFFFF;
+}
+
+.sub{
+	float: right;
+}
+.titulo{
+	float: left;
+}
