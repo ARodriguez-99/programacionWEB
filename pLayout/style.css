@@ -1,10 +1,10 @@
 html{
-	background: #03c2b1;
+	background: #08B4A4;
 }
 
 header{
 	width: 100%;
-	background-color: #f5be29;
+	background-color: #EEB61F;
 	display: inline-block;
 	color: #FFFFFF;
 }
@@ -27,30 +27,30 @@ header{
 }
 
 li{
-	background-color: #ea9214;
+	background-color: #F7A124;
 	display: inline;
 	padding: 15px;
 }
 
 li:hover{
-	background-color: #99dec2;
-	color: #4f8670;
+	background-color: #8DDCBC;
+	color: #4A9275;
 }
 
 .par{
 	position: relative;
-	background-color: #dadada;
+	background-color: #E2E2E2;
 	left: 520px;
 	width: 760px;
 	margin-top: 0px;
 }
 .ARD, .ARI, .ABD, .ABI{
-	background-color: #d6531a;
+	background-color: #E75212;
 	width: 250px;
 	height: 150px;
 	display: block;
 	overflow: hidden;
-	 color: #dadada;
+	 color: #E2E2E2;
 }
 
 .ARD, .ABD {
