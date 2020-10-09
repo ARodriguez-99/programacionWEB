@@ -21,7 +21,7 @@ header{
 
 .en{
 	position: relative;
-	left: 700px;
+	left: 485px;
 	margin-top: 35px;
 	margin-bottom: 0px;
 }
@@ -40,7 +40,7 @@ li:hover{
 .par{
 	position: relative;
 	background-color: #E2E2E2;
-	left: 520px;
+	left: 310px;
 	width: 760px;
 	margin-top: 0px;
 }
