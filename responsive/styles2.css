@@ -1,0 +1,32 @@
+html{
+	background: #E09DCC;
+	margin: 0%;
+}
+
+header{
+	width: 100%;
+	background-color: #63194D;
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 45px;
+	text-align: center;
+}
+
+/*header{
+	width: 100%;
+	background-color: #63194D;
+	display: inline-block;
+	color: #FFFFFF;
+}
+
+.titulo{
+	float: left;
+	margin-left: 600px;
+	font-size: 60px;
+}
+*/
+.imagen{
+	margin-top: 15px;
+	margin-left: 190px;
+	margin-bottom: 15px;
+}
