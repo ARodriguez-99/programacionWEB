@@ -1,23 +1,8 @@
-html{
-	background: #E09DCC;
-	margin: 0%;
+.row > div {
+	background-color: lightgray;
+	color: red;
+	border: 1px solid black;
 }
-
-header{
-	width: 100%;
-	background-color: #63194D;
-	display: inline-block;
-	color: #FFFFFF;
-	font-size: 45px;
-	text-align: center;
-}
-
-img{
-	width: 100%;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
 /*Dispositivos grandes */
 @media (min-width: 1220px){	
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, 
@@ -60,7 +45,7 @@ img{
 	}
 	.col-lg-12{
 		width: 100%;
-
+	}
 }
 
 /*Dispositivos medianos */
@@ -106,13 +91,7 @@ img{
 	.col-md-12{
 		width: 100%;
 	}
-	/*header{
-	background-color: #63194D;
-	display: inline-block;
-	color: #FFFFFF;
-	font-size: 40px;
-	text-align: center;
-	}*/
+
 }	
 
 /*Dispositivos pequeños */
@@ -158,11 +137,4 @@ img{
 	.col-sm-12{
 		width: 100%;
 	}
-	/*header{
-	background-color: #63194D;
-	display: inline-block;
-	color: #FFFFFF;
-	font-size: 30px;
-	text-align: center;
-	}*/
-}
+}	
