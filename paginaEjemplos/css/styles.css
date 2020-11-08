@@ -1,0 +1,40 @@
+*{
+	border: 0px solid #000000;
+}
+
+#container1{
+	background-color: #B70808;
+	font-family: "consolas";
+	font-size: 40px;
+	font-weight: bolder;
+	text-align: center;
+	color: #FFC0CB;
+}
+
+#container2 {
+	background-color: black;
+}
+
+nav{
+	background-color: #B70808;
+	font-family: "consolas";
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+#texto{
+	font-family: "consolas";
+	font-size: 25px;
+	font-weight: bolder;
+	text-align: justify;
+	color: #black;
+}
+
+#container4{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+video{
+	align-self: center;
+}
